@@ -6,3 +6,4 @@ Repo contains CSS files to customise the look and feel of the desktop app, and t
 
 ref [Templates](https://joplinapp.org/#note-templates)
 
+Clone the repo to local drive in `$HOME/.config/`
