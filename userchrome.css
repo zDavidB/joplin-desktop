@@ -1,0 +1,37 @@
+/* For styling the entire Joplin app (except the rendered Markdown, which is defined in `userstyle.css`) */
+
+/*
+.ace_heading {
+  color:#298d56 !important;
+  font-weight: bold;
+}
+
+#note-editor{
+  color: black !important;
+}
+
+.ace_emphasis{
+  color: black !important;
+  font-weight: bold;
+}
+
+.ace_blockquote{
+  color: #298d56 !important;
+  border-left: 1px solid #298d56;   
+}
+
+.ace_string{
+  color: #85b096 !important;
+  font-weight: bold;
+}
+
+.ace_support{
+  color: #298d56 !important;
+  font-weight: bold;
+}
+
+.ace_function{
+  margin-left: 5px;
+  color: #85b096 !important;
+}
+*/

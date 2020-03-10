@@ -1,0 +1,50 @@
+/* For styling the rendered Markdown */
+  h1 {
+    color: white;
+    font-weight: 300;
+    background-color: #414650;
+    width: 100%;
+    border: 3px solid  #414650;
+  }
+  
+  h2 {
+    color: white;
+    font-weight: 400;
+    background-color: #414650;
+    width: 100%;
+    border: 2px solid  #414650;
+  }
+  
+  
+  h3 {
+    color: white;
+    font-weight: 150;
+    background-color: #606776;
+  }
+  
+  
+  pre, code, .inline-code {
+    font-family: monospace;
+    font-size: 12px;
+    border-radius: 5px;
+    background-color: #f6f8fa;
+    white-space: pre-wrap;       /* css-3 */
+    line-height: 1.5;
+    counter-reset: line;
+  }  
+   
+  
+  mark  { 
+    background-color: #BBDD66; /* green for your own marking */
+  }  
+  mark[data-markjs] { 
+    background-color: #F3B717; /* orange */
+  }  
+  mark[data-markjs].mark-selected {
+    background-color: #CF3F00;  /* reddish orange */
+  }  
+
+  svg[id^="mermaid-"] {
+	min-width: 200px;
+	max-width: 500px;
+  }  
