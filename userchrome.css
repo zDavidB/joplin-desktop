@@ -35,3 +35,29 @@
   color: #85b096 !important;
 }
 */
+
+/*
+.list-item-container {
+	background-color: unset !important;
+}
+*/
+
+
+.note-list .list-item:hover {
+	background-color: rgba(0,160,255,0.1) !important;
+}
+
+.side-bar {
+	color: black !important;
+	background-color: white;
+}
+
+.side-bar .list-item:hover,
+.side-bar .synchronize-button:hover {
+	background-color: #7b012e;
+}
+
+.side-bar .list-item:active,
+.side-bar .synchronize-button:active {
+	background-color: #0465BB;
+}
