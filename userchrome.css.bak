@@ -1,0 +1,119 @@
+/* For styling the entire Joplin app (except the rendered Markdown, which is defined in `userstyle.css`) */
+
+/*
+.ace_heading {
+  color:#298d56 !important;
+  font-weight: bold;
+}
+
+#note-editor{
+  color: black !important;
+}
+
+.ace_emphasis{
+  color: black !important;
+  font-weight: bold;
+}
+
+.ace_blockquote{
+  color: #298d56 !important;
+  border-left: 1px solid #298d56;   
+}
+
+.ace_string{
+  color: #85b096 !important;
+  font-weight: bold;
+}
+
+.ace_support{
+  color: #298d56 !important;
+  font-weight: bold;
+}
+
+.ace_function{
+  margin-left: 5px;
+  color: #85b096 !important;
+}
+*/
+
+
+.note-list .list-item:hover {
+	background-color: rgba(0,160,255,0.1) !important;
+}
+
+
+
+/* Notesbooks & Tags Side Bar */ 
+.side-bar > div {
+    background-color: white !important;
+}
+
+.side-bar .list-item-container,
+.side-bar .list-item-container a,  
+.side-bar .list-item,
+.side-bar .list-item div /* number of notes in notebook */
+ {
+    background-color: grey !important;
+    color: white !important;
+    font-size: 0.9rem !important;
+}
+
+.side-bar .list-item:hover {
+	color: white !important;
+	background-color: #7b012e;
+}
+
+.side-bar .list-item-container:hover *
+{
+   background-color: #C0C0C0  !important;
+   color: red !important;
+}
+
+.side-bar div[toggleblock="1"], /* Notebooks and Tags headers */
+.side-bar .synchronize-button {
+    background-color: black !important;
+    color: white !important;
+    font-size: 0.9rem !important;
+}
+
+.side-bar div div /* synchronization message */
+{
+    color: black !important;
+    font-size: 0.7rem !important;
+}
+
+.side-bar .list-item:active {
+	color: white !important;
+	background-color: RED;
+}
+
+.side-bar a.list-item:focus
+ {
+   background-color: black !important;
+   color: white !important;
+}
+
+/*  NOTE LIST */
+
+.note-list > div,
+.note-list > div > a 
+ {
+    background-color: white !important;
+    color: black !important;
+    font-size: 0.7rem !important;
+}
+
+.note-list > div:hover,
+.note-list a.list-item:hover
+ {
+   background-color: grey !important;
+   color: white !important;
+}
+
+.note-list > div > a:focus,
+.note-list a.list-item:focus
+ {
+   background-color: black !important;
+   color: white !important;
+}
+

@@ -1,0 +1,5 @@
+- From the Akamai Control Center, navigate to the Security Configuration section
+- Search for the WAF Security File config
+- Select the v153 version, and the Activate version option
+- Choose the Production network
+- Activation should take around 5mins

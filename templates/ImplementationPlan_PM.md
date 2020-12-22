@@ -1,0 +1,5 @@
+- From the Akamai Control Center, navigate to the Property section
+- Search for the www_argos.co.uk_pm config
+- Select the v146 version, and the Activate version option
+- Choose the Production network
+- Activation should take around 15mins

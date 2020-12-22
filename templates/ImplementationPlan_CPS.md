@@ -1,0 +1,4 @@
+- From the Akamai Control Center, navigate to the Certificates section
+- Search for the ==.....co.uk== certificate
+- Select the certificate and from the actions menu select the Deploy certificate on Staging to Production
+- Activation should take around 60mins
